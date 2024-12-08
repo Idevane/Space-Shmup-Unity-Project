@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a **space shooter (shmup) game** where players control a spaceship to defeat waves of enemies. The game features exciting mechanics, different enemy types, and progressively challenging levels, making it a fun and engaging experience.
+This project is a **space shooter (shmup) game** where players control a spaceship to defeat waves of enemies. The game features exciting mechanics such as different enemy types and a regenerable shield, making it a fun and engaging experience.
 
 ---
 
@@ -10,20 +10,17 @@ This project is a **space shooter (shmup) game** where players control a spacesh
 
 - **Player Mechanics:**
   - Smooth spaceship controls.
-  - Shooting and weapon upgrades.
-  - Health and lives system.
+  - Health and Shield System.
 
 - **Enemy Variety:**
   - Multiple enemy types with unique movement and attack patterns.
-  - Boss enemies at key levels.
 
 - **Progressive Gameplay:**
-  - Increasing difficulty as levels progress.
   - Score tracking for replayability.
 
-- **Graphics and Sound:**
+- **Graphics:**
   - Visually appealing 2D graphics.
-  - Sound effects for actions like shooting, explosions, and damage.
+  - A dynamic space inspired background
 
 ---
 
@@ -43,7 +40,7 @@ This project is a **space shooter (shmup) game** where players control a spacesh
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/space-shmup-game.git
+   git clone https://github.com/idevane/Space-Shmup-Unity-Project.git
    cd space-shmup-game
    ```
 
@@ -52,14 +49,6 @@ This project is a **space shooter (shmup) game** where players control a spacesh
    - Use Unity Hub to open the project directory.
 
 3. Run the game in Unity Editor or build it for your platform.
-
-### Precompiled Binary
-
-1. Download the latest release from the [Releases](https://github.com/yourusername/space-shmup-game/releases) section.
-2. Extract the downloaded file.
-3. Run the executable for your platform.
-
----
 
 ## How to Play
 
@@ -74,17 +63,15 @@ This project is a **space shooter (shmup) game** where players control a spacesh
 3. **Gameplay Objective:**
    - Destroy incoming enemies to score points.
    - Avoid enemy bullets and collisions.
-   - Survive until the level boss and defeat them to progress.
+   - Destroy 10 enemies in a row to regenerate your shield
 
 ---
 
 ## Example Screenshots
 
-*(Include some screenshots of the gameplay here if available.)*
+![image](https://github.com/user-attachments/assets/ce45e76e-b48f-40c7-a459-905bbe96c09a)
 
 ---
-
-## Development
 
 ### Enemy Types Script
 
@@ -95,17 +82,12 @@ This project is a **space shooter (shmup) game** where players control a spacesh
 - Created a responsive spaceship control system.
 - Added collision detection for projectiles and enemies.
 
-### Weapons System
-
-- Players can upgrade their weapons by collecting power-ups.
-
----
-
 ## Future Enhancements
 
 - Add more levels and boss fights.
 - Introduce multiplayer gameplay.
 - Create a leaderboards feature for high scores.
+-  Players can upgrade their weapons by collecting power-ups.
 
 ---
 
@@ -123,7 +105,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Contact
 
-- **Author:** [Your Name]  
-- **Email:** [Your Email]  
-- **GitHub:** [Your GitHub Profile]
+- **Author:** Isaac DeVaney     
+- **Email:** isaacdevaney@gmail.com
+- **GitHub:** idevane
 
